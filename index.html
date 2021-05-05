@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnakeMania - Ek Gaming Katha</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a
+      style="
+        position: fixed;
+        bottom: 10px;
+        left: 0;
+        color: white;
+        text-decoration: none;
+      "
+      href="codewithharry.com"
+      >CREDIT: Code With Harry</a
+    >
+
+    <h2 style="text-align: center">PRESS ANY KEY TO BEGIN THE GAME</h2>
+    <div class="body">
+      <div id="leftflex">
+        <div class="select">
+          <label class="speed" for="SPEED">SNAKE SPEED:</label>
+          <select name="SPEED" id="SPEED" onchange="myFunction()">
+            <option value="4">4</option>
+            <option value="8">8</option>
+            <option value="12">12</option>
+            <option value="16">16</option>
+          </select>
+        </div>
+        <div id="scoreBox">Score: 0</div>
+        <div id="hiscoreBox">HiScore: 0</div>
+      </div>
+      <div id="rightflex">
+        <div id="board"></div>
+      </div>
+    </div>
+    <h3 style="text-align: center; color: rgb(27, 5, 5)">
+      IN MOBILES USE DESKTOP SITE FOR BEST EXPERIENCE
+    </h3>
+  </body>
+  <script src="js/index.js"></script>
+</html>
